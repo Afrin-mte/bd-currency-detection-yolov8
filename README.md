@@ -1,13 +1,13 @@
-# 💵 Bangladeshi Currency Detection using YOLOv8
+#  Bangladeshi Currency Detection using YOLOv8
 
 Real-time detection and classification of Bangladeshi Taka banknotes from a
 live webcam feed, with spoken audio feedback for accessibility. Built with a
 custom-trained **YOLOv8** object detector.
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
-![YOLOv8](https://img.shields.io/badge/Model-YOLOv8n-orange)
-![OpenCV](https://img.shields.io/badge/OpenCV-Realtime-green)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Python](https://img.shields.io/badge/Python-3.9%2B)
+![YOLOv8](https://img.shields.io/badge/Model-YOLOv8n)
+![OpenCV](https://img.shields.io/badge/OpenCV-Realtime)
+![License](https://img.shields.io/badge/License-MIT)
 
 <!--
   📸 ADD YOUR DEMO HERE — this is the single highest-impact thing you can do
