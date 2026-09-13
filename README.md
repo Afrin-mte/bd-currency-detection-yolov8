@@ -5,7 +5,7 @@ live webcam feed, with spoken audio feedback for accessibility. Built with a
 custom-trained **YOLOv8** object detector.
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B)
-![YOLOv8](https://img.shields.io/badge/Model-YOLOv8n)
+![YOLOv8](https://img.shields.io/badge/Model-YOLOv8n-green)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Realtime)
 ![License](https://img.shields.io/badge/License-MIT)
 
