@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Training artifacts
+runs/
+*.pt
+!weights/best.pt
+
+# Dataset (too large for git; see README > Dataset)
+data/currency/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

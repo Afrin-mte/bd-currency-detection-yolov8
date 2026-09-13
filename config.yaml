@@ -1,0 +1,21 @@
+# Dataset configuration for YOLOv8 training
+# 'path' is the root folder containing the train/ and val/ image+label sets.
+# Update this to wherever you place the 'currency' dataset locally —
+# it is NOT included in this repo due to size (see README > Dataset).
+
+path: ./data
+train: currency/train
+val: currency/test
+
+names:
+  0: 500 Taka
+  1: 50 Taka
+  2: 500 Taka (alt design)
+  3: 5 Taka
+  4: 1 Taka
+  5: 1000 Taka
+  6: 10 Taka
+  7: 20 Taka
+  8: currency (unclassified)
+  9: 100 Taka
+  10: 2 Taka
