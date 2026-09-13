@@ -87,7 +87,7 @@ Trained for 20 epochs on CPU. Final validation metrics (see docs/results.csv for
 
 Training curves (loss and metrics over all 20 epochs):
 
-![Training curves](F1_curves.png)
+![Training curves](F1_curve.png)
 
 Precision, Recall, F1, and PR curves per class:
 
