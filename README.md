@@ -4,10 +4,10 @@ Real-time detection and classification of Bangladeshi Taka banknotes from a
 live webcam feed, with spoken audio feedback for accessibility. Built with a
 custom-trained **YOLOv8** object detector.
 
-![Python]
-![YOLOv8](https://img.shields.io/badge/Model-YOLOv8n-green)
-![OpenCV](https://img.shields.io/badge/OpenCV-Realtime)
-![License](https://img.shields.io/badge/License-MIT)
+[Python]
+[YOLOv8]
+[OpenCV]
+[License]
 
 <!--
   📸 ADD YOUR DEMO HERE — this is the single highest-impact thing you can do
@@ -17,7 +17,7 @@ custom-trained **YOLOv8** object detector.
 -->
 ![Demo](docs/assets/demo.gif)
 
-## 📖 Overview
+##  Overview
 
 This project trains a YOLOv8 object-detection model to recognize Bangladeshi
 Taka notes (৳1 to ৳1000) from images or a live camera feed, then reads the
@@ -36,7 +36,7 @@ currency notes independently.
 - Standalone evaluation script reporting mAP50, mAP50-95, precision, and
   recall on the validation set
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 | Component        | Tool |
 |-------------------|------|
@@ -45,7 +45,7 @@ currency notes independently.
 | Text-to-speech    | pyttsx3 |
 | Language          | Python 3.9+ |
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 bd-currency-detection-yolov8/
@@ -61,7 +61,7 @@ bd-currency-detection-yolov8/
 └── README.md
 ```
 
-## 📊 Dataset
+##  Dataset
 
 The model is trained on a custom-labeled dataset of Bangladeshi Taka note
 images covering 11 classes (1, 2, 5, 10, 20, 50, 100, 500, and 1000 Taka,
@@ -80,7 +80,7 @@ format (one `.txt` per image with `class x_center y_center width height`).
 ![Sample annotations](docs/assets/sample_annotations.jpg)
 -->
 
-## 📈 Results
+##  Results
 
 | Metric      | Score |
 |-------------|-------|
