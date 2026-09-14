@@ -56,7 +56,7 @@ The model is trained on a custom-labeled dataset of Bangladeshi Taka note images
 
 Class distribution and bounding box statistics across the training set:
 
-![Class distribution](class_distribution.jpg)
+![Class distribution](labels.jpg)
 
 A batch of training images with their ground truth boxes:
 
