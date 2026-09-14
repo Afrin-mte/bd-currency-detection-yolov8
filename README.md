@@ -1,4 +1,4 @@
-# Bangladeshi Currency Detection using YOLOv8
+# Vision Based Bangladeshi Currency Detection for the Visually Impaired using YOLOv8
 
 Real-time detection and classification of Bangladeshi Taka banknotes from a live webcam feed, with spoken audio feedback for accessibility. Built with a custom-trained YOLOv8 object detector.
 
@@ -12,8 +12,6 @@ Real-time detection and classification of Bangladeshi Taka banknotes from a live
   window detecting a note, convert it to a GIF, save it to
   docs/assets/demo.gif, and this line will render it automatically.
 -->
-![Demo](demo.gif)
-
 ## Overview
 
 This project trains a YOLOv8 object detection model to recognize Bangladeshi Taka notes (1 to 1000 Taka) from images or a live camera feed, then reads the detected denomination aloud using text to speech. It was built as a group project with accessibility in mind, helping visually impaired users identify currency notes independently.
