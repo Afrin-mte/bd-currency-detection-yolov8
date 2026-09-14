@@ -12,8 +12,6 @@ Real-time detection and classification of Bangladeshi Taka banknotes from a live
   window detecting a note, convert it to a GIF, save it to
   docs/assets/demo.gif, and this line will render it automatically.
 -->
-![Demo](docs/assets/demo.gif)
-
 ## Overview
 
 This project trains a YOLOv8 object detection model to recognize Bangladeshi Taka notes (1 to 1000 Taka) from images or a live camera feed, then reads the detected denomination aloud using text to speech. It was built as a group project with accessibility in mind, helping visually impaired users identify currency notes independently.
@@ -58,11 +56,11 @@ The model is trained on a custom-labeled dataset of Bangladeshi Taka note images
 
 Class distribution and bounding box statistics across the training set:
 
-![Class distribution](docs/assets/class_distribution.jpg)
+![Class distribution](class_distribution.jpg)
 
 A batch of training images with their ground truth boxes:
 
-![Training batch sample](docs/assets/train_batch_sample.jpg)
+![Training batch sample](train_batch_sample.jpg)
 
 The raw dataset is not included in this repo due to size. If you are reproducing this project, organize your images as:
 
@@ -87,29 +85,29 @@ Trained for 20 epochs on CPU. Final validation metrics (see docs/results.csv for
 
 Training curves (loss and metrics over all 20 epochs):
 
-![Training curves](docs/assets/training_curves.png)
+![Training curves](training_curves.png)
 
 Precision, Recall, F1, and PR curves per class:
 
 | Precision-Confidence | Recall-Confidence |
 |---|---|
-| ![Precision curve](docs/assets/precision_curve.png) | ![Recall curve](docs/assets/recall_curve.png) |
+| ![Precision curve](precision_curve.png) | ![Recall curve](recall_curve.png) |
 
-![PR curve](docs/assets/pr_curve.png)
+![PR curve](pr_curve.png)
 
-![F1 curve](docs/assets/f1_curve.png)
+![F1 curve](f1_curve.png)
 
 Confusion matrices (raw counts and row-normalized):
 
 | Confusion Matrix | Confusion Matrix (Normalized) |
 |---|---|
-| ![Confusion matrix](docs/assets/confusion_matrix.png) | ![Confusion matrix normalized](docs/assets/confusion_matrix_normalized.png) |
+| ![Confusion matrix](confusion_matrix.png) | ![Confusion matrix normalized](confusion_matrix_normalized.png) |
 
 Sample predictions vs. ground truth on a held-out validation batch (left: ground truth, right: model predictions with confidence scores):
 
 | Ground Truth | Predictions |
 |---|---|
-| ![Val labels](docs/assets/val_batch0_labels.jpg) | ![Val predictions](docs/assets/val_batch0_pred.jpg) |
+| ![Val labels](val_batch0_labels.jpg) | ![Val predictions](val_batch0_pred.jpg) |
 
 ## Limitations and Honest Notes
 
